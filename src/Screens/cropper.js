@@ -45,12 +45,11 @@ window.Buffer = window.Buffer || require("buffer").Buffer;
 
 
 const config = {
-    bucketName: 'sift-bucket-1',
+    bucketName: '*********',
     dirName: 'Reference images', /* optional */
-    region: 'ap-south-1',
-    accessKeyId: 'AKIAWEVT3WY3P6OZOA54',
-    secretAccessKey: 'O+zZEys8sZZYSPufjtB5a4w+pf3FrEl9VsB57EkV',
-    // s3Url: 'https:/your-custom-s3-url.com/', /* optional */
+    region: '**********',
+    accessKeyId: '**********',
+    secretAccessKey: '*********',
 }
 
 
