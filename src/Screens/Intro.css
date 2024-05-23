@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Smokum&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+
+
+
+@media screen and (min-width: 601px) {
+    .app-name {
+        font-size: 40px;
+    }
+    .tiktok {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .app-name {
+        font-size: 30px;
+        
+    }
+    .tiktok{
+        height: 40px;
+        width: 40px;
+    }
+    .edge-de{
+        visibility: hidden;
+    }
+}
+
+
+
+
+.app-name {
+    
+    margin: 5px;
+    padding: 0px;
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Smokum', cursive; */
+    font-family: 'Fredoka One', cursive;
+
+}
+
+.tiktok {
+    margin-right: 6px;
+    margin-left: 4px;
+}
+
+.nav-comp {
+    text-align: center;
+    padding-right: 5px;
+}
+
+.contact-but {
+    color: #5d3fd3;
+    border: none;
+    box-shadow: 3px 3px 12px #888888;
+}
+
+
+.edge-design{
+    width: 90px;
+    height: 90px;
+    background-color: #5d3fd3;
+    border-radius:0px 0px 100px;
+    position: absolute;
+    left: 0px;
+    
+}
+.edge-des {
+    width: 50px;
+        height: 60px;
+        background-color: #5d3fd3;
+        border-radius: 0px 0px 100px 0px;
+        position: absolute;
+        top:70px;
+}
+.edge-de{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cont {
+    text-align: center;
+    margin-top: 40px;
+}

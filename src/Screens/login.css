@@ -1,0 +1,78 @@
+.login-cont {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    border:1px solid white;
+    border-radius: 30px;
+    box-shadow:10px 20px 25px 20px rgba(0, 0, 0, 0.10);
+    padding: 20px 50px 20px 50px;
+}
+
+.app-name {
+
+    margin: 5px;
+    padding: 0px;
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Smokum', cursive; */
+    font-family: 'Fredoka One', cursive;
+
+}
+
+.tiktok {
+    margin-right: 6px;
+    margin-left: 4px;
+}
+
+
+.inp {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    border-radius: 0px;
+    padding: 5px;
+}
+
+.inp:focus{
+    outline: none;
+    border-color: #6f6df4;
+}
+
+.google-but {
+    border: 0px solid;
+    border-radius: 50px; 
+    
+}
+
+.im{
+    margin-top: 30px;
+}
+
+.wel{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+
+@media screen and (min-width: 601px) {
+    .login-cont {
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        
+    }
+        .im {
+            margin: 100px;
+        }
+}
+
+@media screen and (max-width: 600px) {
+    .login-cont {
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+}
+
+
+
